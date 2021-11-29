@@ -1,0 +1,9 @@
+.arrow-icon {
+    width: 150px;
+    height: 150px;  
+}
+.btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
