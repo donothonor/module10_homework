@@ -1,0 +1,73 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+button {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+
+.cht-container {
+    margin: 0 auto;
+    width: 575px;
+    height: 1000px;
+    padding: 10px;
+}
+.cht-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.cht-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 290px;
+}
+.cht-input {
+    margin-right: 10px;
+}
+.cht-input input {
+    width: 300px;
+    border: rgba(0,75,150, 0.8) 3px solid;
+    height: 25px;
+}
+.btn {
+    font-size: 15px;
+    width: 125px;
+    height: 30px;
+    background: rgba(0,75,150, 0.4);
+}
+.cht-btn__send {
+
+}
+.cht-btn__geo {
+}
+.cht-window {
+    border: rgba(0,75,150, 0.8) 3px solid;
+    padding: 10px;
+
+}
+.cht-window__user-message {
+}
+.cht-window__server-message {
+
+}   
+.message {
+    word-wrap: break-word;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    border: rgba(0,75,150, 0.8) 3px solid;
+    margin-bottom: 5px;
+}
+.message-box__user {
+    display: flex;
+    justify-content: flex-end;
+}
+.message-box__server {
+    display:flex;
+    justify-content: flex-start;
+}
